@@ -4,17 +4,68 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	
-	<title></title>
+	<title>Przegląd bilansu</title>
 	
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	
 	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 	
 </head>
 
 <body>
-	
+	<div id="container">
+		<h1>Przegląd bilansu</h1>
+
+		<div id="empty"></div>
+		<div class="dropdown">
+			<span>Wybierz okres</span>
+			<div class="dropdown-content">
+				<form action="order.php" method="post">
+							<div><label><input type="radio" value="Bieżący miesiąc" name="peroid" checked>Bieżący miesiąc</label></div>
+							<div><label><input type="radio" value="Poprzedni miesiąc" name="peroid">Poprzedni miesiąc</label></div>
+							<div><label><input type="radio" value="Poprzedni rok" name="peroid">Poprzedni rok</label></div>
+							<div><label><input type="radio" value="Niestandardowy" name="peroid">Niestandardowy</label></div>
+				</form>
+			</div>
+		</div>
+		
+		<h4>Przychody</h4>
+		<table>
+			<tr>
+				<td>Wynagrodzenie</td> <td align="center">suma</td>
+			</tr>
+			<tr>
+				<td>Odsetki bankowe</td> <td align="center">suma</td>
+			</tr>
+			<tr>
+				<td>Sprzedaż na allegro</td> <td align="center">suma</td>
+			</tr>
+			<tr>
+				<td>Inne</td> <td align="center">suma</td>
+			</tr>
+		</table>
+		
+		<h4>Wydatki</h4>
+		<table>
+			<tr>
+				<td>Jedzenie</td> <td align="center">suma</td>
+			</tr>
+			<tr>
+				<td>Mieszkanie</td> <td align="center">suma</td>
+			</tr>
+			<tr>
+				<td>Transport</td> <td align="center">suma</td>
+			</tr>
+			<tr>
+				<td>Telekomunikacja</td> <td align="center">suma</td>
+			</tr>
+		</table>
+		
+		
+		
+	</div>
 	
 </body>
 </html>
