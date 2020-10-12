@@ -5,6 +5,18 @@ body
 	font-family: 'Lato', sans-serif;
 }
 
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover
+{
+	text-decoration: none;
+	color: white;
+}
+
 .header
 {
 	text-align: center;
@@ -57,6 +69,7 @@ body
 .peroid:hover
 {
 	text-decoration: none;
+	color: blue;
 }
 
 input[type=text],
@@ -109,8 +122,9 @@ input[type=submit]:focus
 	box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
 }
 
-h1.title
+.title
 {
+	font-size: 2.5rem;
 	color: #564d2e;
 	margin-top: 0;
 	margin-bottom: 20px;
