@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'money';
-  src: url('../font/money.eot?5742199');
-  src: url('../font/money.eot?5742199#iefix') format('embedded-opentype'),
-       url('../font/money.woff2?5742199') format('woff2'),
-       url('../font/money.woff?5742199') format('woff'),
-       url('../font/money.ttf?5742199') format('truetype'),
-       url('../font/money.svg?5742199#money') format('svg');
+  font-family: 'page';
+  src: url('../font/page.eot?62992392');
+  src: url('../font/page.eot?62992392#iefix') format('embedded-opentype'),
+       url('../font/page.woff2?62992392') format('woff2'),
+       url('../font/page.woff?62992392') format('woff'),
+       url('../font/page.ttf?62992392') format('truetype'),
+       url('../font/page.svg?62992392#page') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,14 +14,14 @@
 /*
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: 'money';
-    src: url('../font/money.svg?5742199#money') format('svg');
+    font-family: 'page';
+    src: url('../font/page.svg?62992392#page') format('svg');
   }
 }
 */
  
  [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "money";
+  font-family: "page";
   font-style: normal;
   font-weight: normal;
   speak: never;
@@ -66,4 +66,5 @@
 .icon-desktop:before { content: '\f108'; } /* '' */
 .icon-calendar-empty:before { content: '\f133'; } /* '' */
 .icon-dollar:before { content: '\f155'; } /* '' */
+.icon-doc-inv:before { content: '\f15b'; } /* '' */
 .icon-sliders:before { content: '\f1de'; } /* '' */

@@ -32,6 +32,22 @@ body
 	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
 }
 
+.user-data-expense
+{
+	background-color: #efede3;
+	padding: 10px 0px 50px 0px;
+	max-width: 500px;
+	margin-top: 10px;
+	-webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+}
+
+.input-label
+{
+	margin-bottom: 0;
+}
+
 input[type=text],
 input[type=email],
 input[type=password]
@@ -90,6 +106,8 @@ h1.title
 	text-align: center;
 	letter-spacing: 1px;
 }
+
+
 
 input[type=submit]:hover
 {
@@ -165,48 +183,13 @@ button.bg-color:active
 
 .navbar
 { 
-	background-color: #978851;
+	background-color: #867720;
 	border-top: 1px solid #751b1b;
 	border-bottom: 1px solid #751b1b;
 }
 
-ol
+.buttons
 {
-	padding: 0;
-	margin: 0;
-	list-style-type: none;
-	font-size: 20px;
-	height: 40px;
-	line-height: 200%;
+	margin: 0px 10px;
 	display: inline-block;
-}
-
-ol a
-{
-	color: #ffffff;
-	text-decoration: none;
-	display: block;
-}
-
-ol > li
-{
-	float: left;
-	width: 160px;
-	height: 40px;
-	border-right: 1px dashed #751b1b;
-}
-
-ol > li:first-child
-{
-	border-left: 1px dashed #751b1b;
-}
-
-ol > li:hover
-{
-	background-color: #ad9e67;
-}
-
-ol > li:hover > a
-{
-	color: #451717;
 }
