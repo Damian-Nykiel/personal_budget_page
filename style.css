@@ -48,6 +48,17 @@ body
 	margin-bottom: 0;
 }
 
+.peroid
+{
+	text-decoration: none;
+	color: black;
+}
+
+.peroid:hover
+{
+	text-decoration: none;
+}
+
 input[type=text],
 input[type=email],
 input[type=password]
